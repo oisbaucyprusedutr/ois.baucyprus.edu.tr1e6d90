@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+ois.baucyprus.edu.tr	TRUE	/	FALSE	1999999999	PHPSESSID	dkhv1eb37lkc7io22af4spo8rr
+

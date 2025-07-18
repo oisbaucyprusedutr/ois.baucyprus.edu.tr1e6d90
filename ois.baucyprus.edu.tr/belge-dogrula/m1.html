@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document Verification - OIS</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #eaf4ff;
+      margin: 0;
+      padding: 0;
+    }
+     .header img {
+      position: absolute;
+      top: 10px;
+      left: 20px;
+      height: 55px;
+    }
+    .header {
+      background: linear-gradient(90deg, #004aad, #007bff);
+      color: white;
+      padding: 25px;
+      text-align: center;
+      font-size: 24px;
+      position: relative;
+    }
+   
+    .container {
+      max-width: 960px;
+      margin: 50px auto;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+      padding: 35px;
+    }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+    .label {
+      flex: 1;
+      font-weight: 600;
+      color: #1a1a1a;
+    }
+    .value {
+      flex: 2;
+      padding: 12px;
+      background-color: rgba(173, 216, 230, 0.3); /* soft blue with transparency */
+      border-radius: 6px;
+      border: 1px solid #cce5ff;
+      font-size: 16px;
+      color: #003366;
+    }
+    .pdf-label {
+      font-weight: 700;
+      margin-top: 35px;
+      margin-bottom: 12px;
+      color: #003366;
+      font-size: 18px;
+    }
+    .pdf-container {
+      width: 100%;
+      height: 650px;
+      border: 2px solid #b3d1ff;
+      border-radius: 8px;
+      background-color: #f5faff;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="auth_min_logo.jpg" alt="BAU Logo" />
+    Document Verification System - OIS
+  </div>
+  <div class="container" style="font-weight: bold;">
+    <div class="row">
+      <div class="label">Full Name:</div>
+      <div class="value">MAHMOUD ADEL MOHAMMED ESMAIL</div>
+    </div>
+    <div class="row">
+      <div class="label">Document Type:</div>
+      <div class="value">Kabul Mektubu - Letter of Acceptance</div>
+    </div>
+    <div class="row">
+      <div class="label">Reference No:</div>
+      <div class="value">BAU/ISR/2300012345/45678</div>
+    </div>
+    <div class="row">
+      <div class="label">Passport NO:</div>
+      <div class="value">10489522</div>
+    </div>
+
+    <div class="pdf-label">Acceptance Letter
+</div>
+    <iframe class="pdf-container" src="1.pdf"></iframe>
+  </div>
+</body>
+</html>
